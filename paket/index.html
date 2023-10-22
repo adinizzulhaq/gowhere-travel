@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shorcut icon" href="../assets/tour.png" />
+    <title>Gowhere - Jasa guide traveling</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -11,8 +13,9 @@
       crossorigin="anonymous"
     />
     <!-- My CSS -->
-    <link rel="stylesheet" href="/style.css" />
-    <title>Gowhere - Jasa guide traveling</title>
+    <link rel="stylesheet" href="../style.css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body class="bg-dark">
     <!-- Navbar Start -->
@@ -21,7 +24,7 @@
       style="border-bottom: 1px solid white"
     >
       <div class="container-fluid">
-        <a class="navbar-brand text-uppercase fw-bold fs-3" href="index.html"
+        <a class="navbar-brand text-uppercase fw-bold fs-3" href="../index.html"
           >Gowhere</a
         >
         <button
@@ -38,18 +41,20 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/kontak">Kontak</a>
+              <a class="nav-link" href="../kontak/index.html">Kontak</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/paket"
+              <a class="nav-link active" aria-current="page" href="index.html"
                 >Paket</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/voucher">Voucher</a>
+              <a class="nav-link" href="../voucher/index.html">Voucher</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -69,12 +74,12 @@
     <!-- Hero  Start -->
     <div class="container-fluid text-dark mt-4">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4" data-aos="zoom-in" data-aos-duration="1000">
           <div class="card frame" style="max-width: 540px">
             <div class="row g-0">
               <div class="col-md-4">
                 <img
-                  src="/assets/carousel1.jpg"
+                  src="../assets/carousel1.jpg"
                   class="img-fluid rounded-start"
                   alt="paket1"
                   style="height: 100%; object-fit: cover; cursor: pointer"
@@ -95,12 +100,12 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" data-aos="zoom-in" data-aos-duration="1000">
           <div class="card frame" style="max-width: 540px">
             <div class="row g-0">
               <div class="col-md-4">
                 <img
-                  src="/assets/carousel2.jpg"
+                  src="../assets/carousel2.jpg"
                   class="img-fluid rounded-start"
                   alt="paket2"
                   style="height: 100%; object-fit: cover; cursor: pointer"
@@ -121,12 +126,12 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" data-aos="zoom-in" data-aos-duration="1000">
           <div class="card frame" style="max-width: 540px">
             <div class="row g-0">
               <div class="col-md-4">
                 <img
-                  src="/assets/carousel3.jpg"
+                  src="../assets/carousel3.jpg"
                   class="img-fluid rounded-start"
                   alt="paket3"
                   style="height: 100%; object-fit: cover; cursor: pointer"
@@ -165,22 +170,22 @@
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 fw-bold">Faq</h5>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a href="#" class="text-dark" style="text-decoration: none"
                 >Jaminan Uang Kembali</a
               >
             </p>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a href="#" class="text-dark" style="text-decoration: none"
                 >Dijemput dari rumah</a
               >
             </p>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a href="#" class="text-dark" style="text-decoration: none"
                 >Tujuan destinasi</a
               >
             </p>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a href="#" class="text-dark" style="text-decoration: none"
                 >Instansi abal abal</a
               >
             </p>
@@ -188,22 +193,22 @@
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 fw-bold">Pengguna</h5>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a href="#" class="text-dark" style="text-decoration: none"
                 >Akun</a
               >
             </p>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a href="#" class="text-dark" style="text-decoration: none"
                 >Menjadi Member</a
               >
             </p>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a href="#" class="text-dark" style="text-decoration: none"
                 >Beri Rating</a
               >
             </p>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a href="#" class="text-dark" style="text-decoration: none"
                 >Bantuan</a
               >
             </p>
@@ -211,7 +216,11 @@
           <div class="col-md-4 col-lg-2 col-xl-3 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 fw-bold">Kontak</h5>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a
+                href="https://wa.me/+6281322919043"
+                class="text-dark"
+                style="text-decoration: none"
+                target="_blank"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -228,7 +237,11 @@
               >
             </p>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a
+                href="https://instagram.com/adin_izlhq"
+                target="_blank"
+                class="text-dark"
+                style="text-decoration: none"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -245,7 +258,11 @@
               >
             </p>
             <p>
-              <a href="" class="text-dark" style="text-decoration: none"
+              <a
+                href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=adinizulhaq86@gmail.com"
+                class="text-dark"
+                style="text-decoration: none"
+                target="_blank"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -261,24 +278,6 @@
                 adinizulhaq86@gmail.com</a
               >
             </p>
-            <p>
-              <a href="" class="text-dark" style="text-decoration: none"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-printer"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
-                  <path
-                    d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z"
-                  />
-                </svg>
-                +12 861 182 12</a
-              >
-            </p>
           </div>
         </div>
         <hr class="mb-4" />
@@ -286,7 +285,7 @@
           <div class="col-md-7 col-lg-8">
             <p>
               Copyright &copy;2023 All rights reserved by
-              <a href="" style="text-decoration: none"
+              <a href="index.html" style="text-decoration: none"
                 ><strong class="text-uppercase text-dark">Gowhere</strong></a
               >
             </p>
@@ -295,7 +294,11 @@
             <div class="text-center text-md-right">
               <ul class="list-unstyled list-inline">
                 <li class="list-inline-item">
-                  <a href="" class="btn-floating btn-sm text-dark">
+                  <a
+                    href="https://facebook.com/adin.izulhaq.77"
+                    class="btn-floating btn-sm text-dark"
+                    target="_blank"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
@@ -311,7 +314,11 @@
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="" class="btn-floating btn-sm text-dark">
+                  <a
+                    href="https://twitter.com/adin_izlhq"
+                    class="btn-floating btn-sm text-dark"
+                    target="_blank"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
@@ -381,6 +388,12 @@
       </div>
     </footer>
     <!-- Footer End -->
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true });
+    </script>
 
     <!-- Script Bootstrap -->
     <script
